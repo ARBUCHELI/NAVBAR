@@ -18,7 +18,6 @@ Variables
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -41,7 +40,6 @@ Variables
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif; 
-  --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -98,10 +96,10 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: hsl(205, 78%, 60%);
   background: transparent;
   border-color: transparent;
-  transition: var(--transition);
+  transition: all 0.3s linear;
   cursor: pointer;
 }
 .nav-toggle:hover {
@@ -118,11 +116,11 @@ nav {
   letter-spacing: var(--spacing);
   display: block;
   padding: 0.5rem 1rem;
-  transition: var(--transition);
+  transition: all 0.3s linear;
 }
 .links a:hover {
   background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: hsl(205, 78%, 60%);
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -131,7 +129,7 @@ nav {
 .links {
   height: 0;
   overflow: hidden;
-  transition: var(--transition);
+  transition: all 0.3s linear;
 }
 .show-links {
   height: 10rem;
@@ -168,8 +166,8 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
+    color: hsl(205, 78%, 60%);
+    transition: all 0.3s linear;
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
