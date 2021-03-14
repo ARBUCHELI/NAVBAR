@@ -13,9 +13,7 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
   --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
   /* lighter shades of primary color */
@@ -40,7 +38,6 @@ Variables
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif; 
-  --spacing: 0.1rem;
   --radius: 0.25rem;
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
@@ -103,17 +100,17 @@ nav {
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: hsl(205, 86%, 17%);
   transform: rotate(90deg);
 }
 .logo {
   height: 100px;
 }
 .links a {
-  color: var(--clr-grey-3);
+  color: hsl(205, 72%, 37%);
   font-size: 1rem;
   text-transform: capitalize;
-  letter-spacing: var(--spacing);
+  letter-spacing: 0.1rem;
   display: block;
   padding: 0.5rem 1rem;
   transition: all 0.3s linear;
